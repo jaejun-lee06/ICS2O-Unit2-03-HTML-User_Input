@@ -1,11 +1,11 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Jaejun Lee
+// Created on: Mar 2022
 // This file contains the JS functions for index.html
 
 /**
- * This function gets users first name and age and shows it back to user.
+ * This function gets users street number and street name  shows it back to user.
  */
 function enterClicked() {
   // input
@@ -14,5 +14,5 @@ function enterClicked() {
 
   // output
   document.getElementById("address").innerHTML =
-    "Your info is: " + firstName + ", age " + userAge + "."
+    "Your address is: " + userAge + " " + firstName + "."
 }
