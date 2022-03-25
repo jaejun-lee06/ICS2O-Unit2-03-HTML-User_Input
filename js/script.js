@@ -11,7 +11,6 @@ function enterClicked() {
   // input
   const firstName = document.getElementById("first-name").value
   const userAge = parseInt(document.getElementById("age-entered").value)
-
   // output
   document.getElementById("address").innerHTML =
     "Your address is: " + userAge + " " + firstName + "."
